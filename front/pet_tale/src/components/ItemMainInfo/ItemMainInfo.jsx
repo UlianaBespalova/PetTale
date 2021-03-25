@@ -25,7 +25,7 @@ const ItemMainInfo = (props) => {
             </div>
 
             <div className="position-absolute bottom-0 start-2 d-grid gap-2 col-4">
-                <button className="btn btn-danger" type="button">В корзину</button>
+                <button className="btn bg-bright text-light" type="button">В корзину</button>
             </div>
         </div>
     )

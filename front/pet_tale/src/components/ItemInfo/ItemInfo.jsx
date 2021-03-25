@@ -13,7 +13,7 @@ const ItemInfoItem = ({title, value}) => {
 
 const ItemInfo = ({itemInfo}) => {
     return (
-        <table className="table table-borderless table-sm col-12 my-3">
+        <table className="table table-borderless table-sm col-12 my-3 text-main">
             <tbody>
             { itemInfo.map((item) =>
                 <ItemInfoItem title={item[0]} value={item[1]}/>

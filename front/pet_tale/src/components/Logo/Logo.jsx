@@ -1,10 +1,9 @@
-import logo from '../../logo.svg';
+import logo from '../../img/logo.svg';
 
 const Logo = () => {
     return (
         <a className="navbar-brand fs-3" href="#">
-            <img src={logo} alt="" width="45" height="36" className="d-inline-block align-top" />
-            Pet Tale
+            <img src={logo} alt="" width="140" className="d-inline-block align-top" />
         </a>
     )
 }

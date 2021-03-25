@@ -1,9 +1,11 @@
 import React from 'react';
+import './Pagination.css';
+
 
 const Pagination = ({pagePrev, pageCur, pageNext}) => {
     return (
         <ul className="pagination pagination-sm justify-content-end my-2">
-            <li className="page-item">
+            <li className="page-item text-main">
                 <a className="page-link" href="#" aria-label="Previous">
                     <span aria-hidden="true">&laquo;</span>
                 </a>

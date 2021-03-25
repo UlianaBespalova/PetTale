@@ -1,7 +1,8 @@
-from rest_framework.routers import DefaultRouter
-from .views import *
+from django.conf.urls import url
+from api_v0 import views
 
-router = DefaultRouter()
-router.register(r'goods', GoodViewSet)
 
-urlpatterns = router.urls
+urlpatterns = [
+    url(r'^itemlist$', views.goodList, name='goodList'),
+    url(r'^item/(\d+)$', views.goodItem, name='goodItem')
+]

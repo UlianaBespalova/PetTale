@@ -13,46 +13,6 @@ class Goods(models.Model):
     price = models.IntegerField(db_column='Price', blank=True, null=True)  # Field name made lowercase.
     image = models.CharField(db_column='Image', max_length=200, blank=True)  # Field name made lowercase.
 
-    @property
-    def get_title(self):
-        try:
-            return self.title.encode('cp1251').decode('utf8')
-        except:
-            return self.title
-
-    @property
-    def get_brand(self):
-        return self.brand.encode('cp1251').decode('utf8')
-
-    @property
-    def get_type(self):
-        return self.type.encode('cp1251').decode('utf8')
-
-    @property
-    def get_sex(self):
-        return self.sex.encode('cp1251').decode('utf8')
-
-    @property
-    def get_size(self):
-        return self.size.encode('cp1251').decode('utf8')
-
-    @property
-    def get_sizeparams(self):
-        return self.sizeparams.encode('cp1251').decode('utf8')
-
-    @property
-    def get_sizearray(self):
-        return self.sizearray.encode('cp1251').decode('utf8')
-
-    @property
-    def get_color(self):
-        return self.color.encode('cp1251').decode('utf8')
-
-    @property
-    def get_country(self):
-        return self.country.encode('cp1251').decode('utf8')
-
-
     class Meta:
         managed = True
         db_table = 'Goods'

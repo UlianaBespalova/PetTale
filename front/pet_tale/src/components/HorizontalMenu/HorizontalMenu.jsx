@@ -1,11 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import routes from "../../modules/routes";
 
-const HorizontalMenu = () => {
+const HorizontalMenu = ({sortParam}) => {
     return (
         <nav className="nav nav-underline">
             <span className="nav-link">Сортировать по:</span>
-            <span className="nav-link">Цене</span>
-            <span className="nav-link">Новизне</span>
+            <span onClick={() => window.location=routes.listPage.addParam('sort', 'price')}
+                className={sortParam === 'price' ? "text-bright nav-link" : "nav-link clicable-text"}>Цене</span>
+            <span onClick={() => window.location=routes.listPage.addParam('sort', 'newly')}
+                className={sortParam !== 'price' ? "text-bright nav-link" : "nav-link clicable-text"}>Новизне</span>
         </nav>
     )
 }
