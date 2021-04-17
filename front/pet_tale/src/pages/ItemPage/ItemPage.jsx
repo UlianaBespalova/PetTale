@@ -8,6 +8,7 @@ import ItemMainInfo from "../../components/ItemMainInfo";
 import ItemInfo from "../../components/ItemInfo";
 import axios from "axios";
 import {urls} from "../../api/urls";
+import Spinner from "../../components/Spinner";
 
 
 const getItemInfo = (responce) => {
@@ -30,7 +31,20 @@ const getSizeArray = (responce) => {
     return sizeArray;
 }
 
-
+const mock = {
+    "id": 7,
+    "title": "COLLAR / Курточка двусторонняя AiryVest UNI, размер M 43, розово-черная",
+    "brand": "COLLAR",
+    "type": "жилет",
+    "sex": "самка",
+    "size": "для крупных пород; для средних пород",
+    "sizeparams": "Российский размер;Размер производителя;Обхват груди, в см;Обхват шеи, в см;Длина спины, в см;",
+    "sizearray": "40-43,M43,50-60,36-42,40-43;",
+    "color": "розовый, черный",
+    "country": "Украина",
+    "price": 4465,
+    "image": "images.wbstatic.net/c516x688/new/13430000/13439876-1.jpg"
+}
 
 const ItemPage = () => {
 
@@ -41,22 +55,26 @@ const ItemPage = () => {
     const [sizeArray, setSizeArray] = useState([]);
 
     useEffect(() => {
-        setIsLoading(true);
-        const id = window.location.href.split('catalog/')[1];
-
-        axios
-            .get(urls.item(id))
-            .then((res) => {
-                setItem(res.data[0].fields);
-                setIsLoading(false);
-                setItemInfo(getItemInfo(res.data[0].fields));
-                setSizeArray(getSizeArray(res.data[0].fields));
-            })
-            .catch(() => {
-                //setIsLoading(false);
-                window.location.href = `http://localhost:3000/404`;
-                console.log('erro404r');
-            });
+        // setIsLoading(true);
+        // const id = window.location.href.split('catalog/')[1];
+        //
+        // axios
+        //     .get(urls.item(id))
+        //     .then((res) => {
+        //         setItem(res.data[0].fields);
+        //         setIsLoading(false);
+        //         setItemInfo(getItemInfo(res.data[0].fields));
+        //         setSizeArray(getSizeArray(res.data[0].fields));
+        //     })
+        //     .catch(() => {
+        //         //setIsLoading(false);
+        //         window.location.href = `http://localhost:3000/404`;
+        //         console.log('erro404r');
+        //     });
+        setIsLoading(false);
+        setItem(mock);
+        setItemInfo(getItemInfo(mock));
+        setSizeArray(getSizeArray(mock));
     }, []);
 
 
@@ -82,7 +100,7 @@ const ItemPage = () => {
                     <div className="my-5">
                         <h5 className="fw-bold mx-1">Информация о товаре</h5>
                         <ItemInfo itemInfo={itemInfo} />
-                </div> < />) : null }
+                </div> < />) : <Spinner /> }
             </div>
             <Footer />
         </div>

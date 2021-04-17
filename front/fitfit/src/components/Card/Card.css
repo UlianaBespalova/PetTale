@@ -1,0 +1,9 @@
+.card-img {
+    height: 120px;
+    overflow: hidden
+}
+
+.card-img-min {
+    min-height: 120px;
+    overflow: hidden
+}

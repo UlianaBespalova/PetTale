@@ -12,62 +12,63 @@ import {getItemList} from "../../api/api";
 import axios from "axios";
 import * as url from "url";
 import {urls} from "../../api/urls";
+import Spinner from "../../components/Spinner";
 
 const mockResponse = {
     body: [
         {
-            "id": 1,
-            "title": "bananadog / Дождевик для животных/ дождевик для собак",
+            pk: 1,
+            fields: {"title": "bananadog / Дождевик для животных/ дождевик для собак",
             "price": 2500,
-            "image": "images.wbstatic.net/c516x688/new/17670000/17674806-1.jpg"
+            "image": "images.wbstatic.net/c516x688/new/17670000/17674806-1.jpg"}
         },
         {
-            "id": 2,
-            "title": "Arnydog / Куртка для собак Arnydog \"Classic motor\" красная",
+            pk: 2,
+            fields: {"title": "Arnydog / Куртка для собак Arnydog \"Classic motor\" красная",
             "price": 1236,
-            "image": "images.wbstatic.net/c516x688/new/15800000/15809423-1.jpg"
+            "image": "images.wbstatic.net/c516x688/new/15800000/15809423-1.jpg"}
         },
         {
-            "id": 3,
-            "title": "ForMyDogs / Дождевик для собак Такса девочек",
+            pk : 3,
+            fields: {"title": "ForMyDogs / Дождевик для собак Такса девочек",
             "price": 3429,
-            "image": "images.wbstatic.net/c516x688/new/10540000/10548357-1.jpg"
+            "image": "images.wbstatic.net/c516x688/new/10540000/10548357-1.jpg"}
         },
         {
-            "id": 4,
-            "title": "РўРЈР—Р?Рљ / РњРµРјР±СЂР°РЅР° РЅР° С„Р»РёСЃРµ РґР»СЏ РєРѕР±РµР»СЏ РўР°РєСЃР° СЃСЂРµРґРЅСЏСЏ",
+            pk : 4,
+            fields: {"title": "РўРЈР—Р?Рљ / РњРµРјР±СЂР°РЅР° РЅР° С„Р»РёСЃРµ РґР»СЏ РєРѕР±РµР»СЏ РўР°РєСЃР° СЃСЂРµРґРЅСЏСЏ",
             "price": 3900,
-            "image": "images.wbstatic.net/c516x688/new/17570000/17578999-1.jpg"
+            "image": "images.wbstatic.net/c516x688/new/17570000/17578999-1.jpg"}
         },
         {
-            "id": 5,
-            "title": "Mellingward / Комбинезон для собак демисезонный с отверстием для поводка",
+            pk : 5,
+            fields: {"title": "Mellingward / Комбинезон для собак демисезонный с отверстием для поводка",
             "price": 2750,
-            "image": "images.wbstatic.net/c516x688/new/17020000/17023586-1.jpg"
+            "image": "images.wbstatic.net/c516x688/new/17020000/17023586-1.jpg"}
         },
         {
-            "id": 6,
-            "title": "Mellingward / Комбинезон для собак с кармашком, на флисе",
+            pk : 6,
+            fields: {"title": "Mellingward / Комбинезон для собак с кармашком, на флисе",
             "price": 3425,
-            "image": "images.wbstatic.net/c516x688/new/17020000/17023574-1.jpg"
+            "image": "images.wbstatic.net/c516x688/new/17020000/17023574-1.jpg"}
         },
         {
-            "id": 7,
-            "title": "COLLAR / Курточка двусторонняя AiryVest UNI, размер M 43, розово-черная",
+            pk : 7,
+            fields: {"title": "COLLAR / Курточка двусторонняя AiryVest UNI, размер M 43, розово-черная",
             "price": 4465,
-            "image": "images.wbstatic.net/c516x688/new/13430000/13439876-1.jpg"
+            "image": "images.wbstatic.net/c516x688/new/13430000/13439876-1.jpg"}
         },
         {
-            "id": 8,
-            "title": "РўРЈР—Р?Рљ / РњРµРјР±СЂР°РЅР° РЅР° С„Р»РёСЃРµ РґР»СЏ СЃР°РјРєРё Р¦РІРµСЂРіС€РЅР°СѓС†РµСЂ",
+            pk : 8,
+            fields: {"title": "РўРЈР—Р?Рљ / РњРµРјР±СЂР°РЅР° РЅР° С„Р»РёСЃРµ РґР»СЏ СЃР°РјРєРё Р¦РІРµСЂРіС€РЅР°СѓС†РµСЂ",
             "price": 3900,
-            "image": "images.wbstatic.net/c516x688/new/17570000/17579007-1.jpg"
+            "image": "images.wbstatic.net/c516x688/new/17570000/17579007-1.jpg"}
         },
         {
-            "id": 9,
-            "title": "ДжекиДог / Толстовка Флисовая",
+            pk : 9,
+            fields: {"title": "ДжекиДог / Толстовка Флисовая",
             "price": 1490,
-            "image": "images.wbstatic.net/c516x688/new/14480000/14484552-1.jpg"
+            "image": "images.wbstatic.net/c516x688/new/14480000/14484552-1.jpg"}
         }
     ]
 }
@@ -80,20 +81,22 @@ const ListPage = ({sortParam, sizeParam}) => {
     const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
-        setIsLoading(true);
-
-        axios
-            .get(urls.itemList([['sort', sortParam], ['size', sizeParam]]))
-            .then((res) => {
-                console.log('res', res.data);
-                setItemList(res.data);
-                setIsLoading(false);
-            })
-            .catch(() => {
-                //setIsLoading(false);
-                //window.location.href = `${window.location.href}/404`;
-                console.log('error404');
-            });
+        // setIsLoading(true);
+        //
+        // axios
+        //     .get(urls.itemList([['sort', sortParam], ['size', sizeParam]]))
+        //     .then((res) => {
+        //         console.log('res', res.data);
+        //         setItemList(res.data);
+        //         setIsLoading(false);
+        //     })
+        //     .catch(() => {
+        //         //setIsLoading(false);
+        //         //window.location.href = `${window.location.href}/404`;
+        //         console.log('error404');
+        //     });
+        setIsLoading(false);
+        setItemList(mockResponse.body);
     }, []);
 
 
@@ -117,7 +120,7 @@ const ListPage = ({sortParam, sizeParam}) => {
                                             </div>
                                         // </Link>
                                     )
-                            ) : null}
+                            ) : <Spinner />}
                         </div>
                         <Pagination pagePrev='1' pageCur='2' pageNext='3'/>
                     </div>

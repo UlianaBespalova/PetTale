@@ -1,0 +1,33 @@
+.card-body {
+    border: none;
+}
+
+.text-small {
+    font-size: 80%;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.item-active {
+    color: gray;
+}
+
+.item-active:hover {
+    text-decoration: underline;
+}
+
+.item-inactive {
+    color: black;
+}
+
+.btn-main {
+    background-color: #83b5e6;
+}
+
+.window-color {
+    background: #edf1f5;
+}
+
+

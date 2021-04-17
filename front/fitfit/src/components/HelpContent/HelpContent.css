@@ -1,0 +1,16 @@
+.item-inactive-bright {
+    font-weight: bold;
+}
+
+.help-text {
+    margin-bottom: -15px;
+}
+
+.help-title {
+    font-weight: bold;
+}
+
+.help-body {
+    border: 1px solid #bfcddb;
+    border-radius: 5px;
+}

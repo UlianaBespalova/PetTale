@@ -2,7 +2,7 @@ import logo from '../../img/logo.svg';
 
 const Logo = () => {
     return (
-        <a className="navbar-brand fs-3" href="#">
+        <a className="navbar-brand fs-3" href={window.location}>
             <img src={logo} alt="" width="140" className="d-inline-block align-top" />
         </a>
     )

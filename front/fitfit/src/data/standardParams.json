@@ -1,0 +1,30 @@
+{
+  "standardParams": {
+    "Далматинец": {
+      "id": 1,
+      "maleParams": {
+        "chest": 11,
+        "waist": 11,
+        "back": 11
+      },
+      "femaleParams": {
+        "chest": 10,
+        "waist": 10,
+        "back": 10
+      }
+    },
+    "Корги": {
+      "id": 2,
+      "maleParams": {
+        "chest": 22,
+        "waist": 22,
+        "back": 22
+      },
+      "femaleParams": {
+        "chest": 21,
+        "waist": 21,
+        "back": 21
+      }
+    }
+  }
+}

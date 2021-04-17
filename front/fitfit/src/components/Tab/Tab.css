@@ -1,0 +1,18 @@
+.button-tab {
+    border-radius: 0;
+    background-color: #83b5e6;
+    box-shadow: 3px 5px 5px 0 #888888;
+    color: black;
+    border: none;
+}
+
+.button-tab:hover {
+    color: black;
+    background-color: #6798c9;
+    /*background-color: #baa487;*/
+    /*background-color: #8d6036;*/
+    /*background-color: #523722;*/
+    /*background-color: #6d1e10;*/
+    /*background-color: #363b7d;*/
+    /*background-color: #83b5e6;*/
+}
