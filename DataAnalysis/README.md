@@ -20,6 +20,7 @@
 
 ![Item-based](../Screenshots/data_4.jpg)  
 
+
 Сравнение эффективности отдельных алгоритмов и гибридной системы, объединяющей user-based и content-based рекомендации методом взвешенной суммы:
 
 ![Table](../Screenshots/data_5.jpg)  
