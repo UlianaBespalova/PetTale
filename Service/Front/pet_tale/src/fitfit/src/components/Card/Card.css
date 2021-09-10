@@ -1,0 +1,19 @@
+.fitfit-card-img {
+    height: 120px;
+    overflow: hidden
+}
+
+.fitfit-card-img-min {
+    min-height: 120px;
+    overflow: hidden;
+    margin-top: -25%;
+}
+
+.fitfit-item-price-text {
+    color: #1d4e92;
+}
+
+.fitfit-item-title-text{
+    font-size: 85%;
+    font-weight: bold;
+}

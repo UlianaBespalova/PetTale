@@ -1,0 +1,30 @@
+.marker-circle {
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+}
+
+.marker-color-ok {
+    background: #288787;
+}
+
+.marker-color-warning {
+    background: #f3db64;
+}
+
+.marker-color-bad {
+    background: #e74e60;
+}
+
+@media screen and (max-width: 991px) {
+    .table-pos {
+        margin-top: 220px;
+        margin-left: -10px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .table-pos {
+        margin-left: -70px;
+    }
+}

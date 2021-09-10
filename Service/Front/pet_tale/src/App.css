@@ -1,0 +1,55 @@
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bg-main {
+  background-color: #e2ecee;
+}
+
+.text-main {
+  color: #404241;
+}
+
+.text-additional {
+  color: #a3aab0;
+}
+
+.bg-bright {
+  background-color: #225bea;
+}
+
+.bg-additional {
+  background-color: #a3aab0;
+}
+
+.text-bright {
+  color: #228dea;
+}
+
+.card-no-border {
+  border-color: white;
+}
+
+.clicable:hover {
+  cursor: pointer;
+}
+
+.clicable-text:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.text-small {
+  font-size: 95%;
+}
+
+.accordion-collapse {
+  border-color: white;
+}

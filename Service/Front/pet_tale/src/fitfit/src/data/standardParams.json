@@ -1,0 +1,823 @@
+{
+  "standardParams": {
+    "Чихуахуа": {
+      "id": 1,
+      "maleParams": {
+        "chest": 34,
+        "waist": 21,
+        "back": 27
+      },
+      "femaleParams": {
+        "chest": 32,
+        "waist": 19,
+        "back": 25
+      }
+    },
+    "Йоркширский терьер": {
+      "id": 2,
+      "maleParams": {
+        "chest": 34,
+        "waist": 21,
+        "back": 27
+      },
+      "femaleParams": {
+        "chest": 32,
+        "waist": 19,
+        "back": 25
+      }
+    },
+    "Русский той-терьер": {
+      "id": 3,
+      "maleParams": {
+        "chest": 31,
+        "waist": 19,
+        "back": 26
+      },
+      "femaleParams": {
+        "chest": 29,
+        "waist": 17,
+        "back": 24
+      }
+    },
+    "Мальтийская болонка": {
+      "id": 4,
+      "maleParams": {
+        "chest": 37,
+        "waist": 23,
+        "back": 29
+      },
+      "femaleParams": {
+        "chest": 35,
+        "waist": 21,
+        "back": 27
+      }
+    },
+    "Той-пудель": {
+      "id": 5,
+      "maleParams": {
+        "chest": 34,
+        "waist": 21,
+        "back": 28
+      },
+      "femaleParams": {
+        "chest": 32,
+        "waist": 19,
+        "back": 26
+      }
+    },
+    "Померанский шпиц": {
+      "id": 6,
+      "maleParams": {
+        "chest": 34,
+        "waist": 21,
+        "back": 28
+      },
+      "femaleParams": {
+        "chest": 32,
+        "waist": 19,
+        "back": 26
+      }
+    },
+    "Пекинес": {
+      "id": 7,
+      "maleParams": {
+        "chest": 38,
+        "waist": 23,
+        "back": 31
+      },
+      "femaleParams": {
+        "chest": 36,
+        "waist": 21,
+        "back": 29
+      }
+    },
+    "Карликовый пудель": {
+      "id": 8,
+      "maleParams": {
+        "chest": 38,
+        "waist": 23,
+        "back": 31
+      },
+      "femaleParams": {
+        "chest": 36,
+        "waist": 21,
+        "back": 29
+      }
+    },
+    "Цвергпинчер": {
+      "id": 9,
+      "maleParams": {
+        "chest": 41,
+        "waist": 26,
+        "back": 32
+      },
+      "femaleParams": {
+        "chest": 39,
+        "waist": 24,
+        "back": 30
+      }
+    },
+    "Китайская хохлатая": {
+      "id": 10,
+      "maleParams": {
+        "chest": 38,
+        "waist": 23,
+        "back": 31
+      },
+      "femaleParams": {
+        "chest": 36,
+        "waist": 21,
+        "back": 29
+      }
+    },
+    "Цвергшнауцер": {
+      "id": 11,
+      "maleParams": {
+        "chest": 46,
+        "waist": 29,
+        "back": 33
+      },
+      "femaleParams": {
+        "chest": 44,
+        "waist": 27,
+        "back": 31
+      }
+    },
+    "Ши-тцу": {
+      "id": 12,
+      "maleParams": {
+        "chest": 46,
+        "waist": 27,
+        "back": 33
+      },
+      "femaleParams": {
+        "chest": 44,
+        "waist": 29,
+        "back": 31
+      }
+    },
+    "Мопс": {
+      "id": 13,
+      "maleParams": {
+        "chest": 51,
+        "waist": 35,
+        "back": 35
+      },
+      "femaleParams": {
+        "chest": 49,
+        "waist": 33,
+        "back": 33
+      }
+    },
+    "Французский бульдог": {
+      "id": 14,
+      "maleParams": {
+        "chest": 51,
+        "waist": 35,
+        "back": 35
+      },
+      "femaleParams": {
+        "chest": 49,
+        "waist": 33,
+        "back": 33
+      }
+    },
+    "Американский кокер-спаниель": {
+      "id": 15,
+      "maleParams": {
+        "chest": 53,
+        "waist": 36,
+        "back": 37
+      },
+      "femaleParams": {
+        "chest": 51,
+        "waist": 34,
+        "back": 35
+      }
+    },
+    "Фокстерьер": {
+      "id": 16,
+      "maleParams": {
+        "chest": 53,
+        "waist": 36,
+        "back": 37
+      },
+      "femaleParams": {
+        "chest": 51,
+        "waist": 34,
+        "back": 35
+      }
+    },
+    "Английский кокер-спаниель": {
+      "id": 17,
+      "maleParams": {
+        "chest": 63,
+        "waist": 41,
+        "back": 43
+      },
+      "femaleParams": {
+        "chest": 61,
+        "waist": 39,
+        "back": 41
+      }
+    },
+    "Мексиканская голая": {
+      "id": 18,
+      "maleParams": {
+        "chest": 63,
+        "waist": 41,
+        "back": 44
+      },
+      "femaleParams": {
+        "chest": 61,
+        "waist": 39,
+        "back": 42
+      }
+    },
+    "Бигль": {
+      "id": 19,
+      "maleParams": {
+        "chest": 65,
+        "waist": 43,
+        "back": 46
+      },
+      "femaleParams": {
+        "chest": 63,
+        "waist": 41,
+        "back": 44
+      }
+    },
+    "Мини-бультерьер": {
+      "id": 20,
+      "maleParams": {
+        "chest": 65,
+        "waist": 43,
+        "back": 46
+      },
+      "femaleParams": {
+        "chest": 63,
+        "waist": 41,
+        "back": 44
+      }
+    },
+    "Курцхаар": {
+      "id": 21,
+      "maleParams": {
+        "chest": 65,
+        "waist": 43,
+        "back": 46
+      },
+      "femaleParams": {
+        "chest": 63,
+        "waist": 41,
+        "back": 44
+      }
+    },
+    "Лабрадор": {
+      "id": 22,
+      "maleParams": {
+        "chest": 81,
+        "waist": 51,
+        "back": 61
+      },
+      "femaleParams": {
+        "chest": 79,
+        "waist": 49,
+        "back": 59
+      }
+    },
+    "Золотой ретривер": {
+      "id": 23,
+      "maleParams": {
+        "chest": 76,
+        "waist": 47,
+        "back": 55
+      },
+      "femaleParams": {
+        "chest": 74,
+        "waist": 45,
+        "back": 53
+      }
+    },
+    "Немецкий боксер": {
+      "id": 24,
+      "maleParams": {
+        "chest": 76,
+        "waist": 47,
+        "back": 55
+      },
+      "femaleParams": {
+        "chest": 74,
+        "waist": 45,
+        "back": 53
+      }
+    },
+    "Веймаранер": {
+      "id": 24,
+      "maleParams": {
+        "chest": 71,
+        "waist": 43,
+        "back": 51
+      },
+      "femaleParams": {
+        "chest": 69,
+        "waist": 41,
+        "back": 49
+      }
+    },
+    "Стафордширский терьер": {
+      "id": 25,
+      "maleParams": {
+        "chest": 71,
+        "waist": 43,
+        "back": 51
+      },
+      "femaleParams": {
+        "chest": 69,
+        "waist": 41,
+        "back": 49
+      }
+    },
+    "Доберман": {
+      "id": 26,
+      "maleParams": {
+        "chest": 81,
+        "waist": 51,
+        "back": 61
+      },
+      "femaleParams": {
+        "chest": 79,
+        "waist": 49,
+        "back": 59
+      }
+    },
+    "Родезийский риджбек": {
+      "id": 27,
+      "maleParams": {
+        "chest": 81,
+        "waist": 51,
+        "back": 61
+      },
+      "femaleParams": {
+        "chest": 79,
+        "waist": 49,
+        "back": 59
+      }
+    },
+    "Немецкая овчарка": {
+      "id": 28,
+      "maleParams": {
+        "chest": 81,
+        "waist": 51,
+        "back": 61
+      },
+      "femaleParams": {
+        "chest": 79,
+        "waist": 49,
+        "back": 59
+      }
+    },
+    "Ризеншнауцер": {
+      "id": 29,
+      "maleParams": {
+        "chest": 83,
+        "waist": 53,
+        "back": 65
+      },
+      "femaleParams": {
+        "chest": 81,
+        "waist": 51,
+        "back": 63
+      }
+    },
+    "Кане-корсо": {
+      "id": 30,
+      "maleParams": {
+        "chest": 83,
+        "waist": 53,
+        "back": 65
+      },
+      "femaleParams": {
+        "chest": 81,
+        "waist": 51,
+        "back": 63
+      }
+    },
+    "Ротвейлер": {
+      "id": 31,
+      "maleParams": {
+        "chest": 83,
+        "waist": 53,
+        "back": 65
+      },
+      "femaleParams": {
+        "chest": 81,
+        "waist": 51,
+        "back": 63
+      }
+    },
+    "Немецкий дог": {
+      "id": 32,
+      "maleParams": {
+        "chest": 96,
+        "waist": 55,
+        "back": 72
+      },
+      "femaleParams": {
+        "chest": 94,
+        "waist": 53,
+        "back": 70
+      }
+    },
+    "Бордоский дог": {
+      "id": 33,
+      "maleParams": {
+        "chest": 96,
+        "waist": 55,
+        "back": 72
+      },
+      "femaleParams": {
+        "chest": 94,
+        "waist": 53,
+        "back": 70
+      }
+    },
+    "Среднеазиатская овчарка": {
+      "id": 33,
+      "maleParams": {
+        "chest": 96,
+        "waist": 55,
+        "back": 72
+      },
+      "femaleParams": {
+        "chest": 94,
+        "waist": 53,
+        "back": 70
+      }
+    },
+    "Английский мастиф": {
+      "id": 34,
+      "maleParams": {
+        "chest": 96,
+        "waist": 55,
+        "back": 72
+      },
+      "femaleParams": {
+        "chest": 94,
+        "waist": 53,
+        "back": 70
+      }
+    },
+    "Миниатюрный йоркширский терьер": {
+      "id": 35,
+      "maleParams": {
+        "chest": 28,
+        "waist": 19,
+        "back": 16
+      },
+      "femaleParams": {
+        "chest": 28,
+        "waist": 17,
+        "back": 14
+      }
+    },
+    "Миниатюрный пинчер": {
+      "id": 36,
+      "maleParams": {
+        "chest": 28,
+        "waist": 19,
+        "back": 16
+      },
+      "femaleParams": {
+        "chest": 28,
+        "waist": 17,
+        "back": 14
+      }
+    },
+    "Мальтезе": {
+      "id": 37,
+      "maleParams": {
+        "chest": 39,
+        "waist": 26,
+        "back": 26
+      },
+      "femaleParams": {
+        "chest": 37,
+        "waist": 24,
+        "back": 24
+      }
+    },
+    "Пудель": {
+      "id": 38,
+      "maleParams": {
+        "chest": 46,
+        "waist": 30,
+        "back": 29
+      },
+      "femaleParams": {
+        "chest": 44,
+        "waist": 28,
+        "back": 27
+      }
+    },
+    "Шнауцер": {
+      "id": 39,
+      "maleParams": {
+        "chest": 49,
+        "waist": 32,
+        "back": 33
+      },
+      "femaleParams": {
+        "chest": 47,
+        "waist": 30,
+        "back": 31
+      }
+    },
+    "Японский Хин": {
+      "id": 40,
+      "maleParams": {
+        "chest": 45,
+        "waist": 30,
+        "back": 29
+      },
+      "femaleParams": {
+        "chest": 43,
+        "waist": 28,
+        "back": 27
+      }
+    },
+    "Скотчтерьер": {
+      "id": 41,
+      "maleParams": {
+        "chest": 50,
+        "waist": 34,
+        "back": 35
+      },
+      "femaleParams": {
+        "chest": 48,
+        "waist": 32,
+        "back": 33
+      }
+    },
+    "Левретка": {
+      "id": 42,
+      "maleParams": {
+        "chest": 54,
+        "waist": 33,
+        "back": 35
+      },
+      "femaleParams": {
+        "chest": 52,
+        "waist": 31,
+        "back": 33
+      }
+    },
+    "Миттельшнауцер": {
+      "id": 43,
+      "maleParams": {
+        "chest": 54,
+        "waist": 33,
+        "back": 35
+      },
+      "femaleParams": {
+        "chest": 52,
+        "waist": 31,
+        "back": 33
+      }
+    },
+    "Русский спаниель": {
+      "id": 44,
+      "maleParams": {
+        "chest": 64,
+        "waist": 43,
+        "back": 44
+      },
+      "femaleParams": {
+        "chest": 62,
+        "waist": 41,
+        "back": 42
+      }
+    },
+    "Шарпей": {
+      "id": 45,
+      "maleParams": {
+        "chest": 64,
+        "waist": 43,
+        "back": 44
+      },
+      "femaleParams": {
+        "chest": 62,
+        "waist": 41,
+        "back": 42
+      }
+    },
+    "Далматин": {
+      "id": 46,
+      "maleParams": {
+        "chest": 64,
+        "waist": 43,
+        "back": 44
+      },
+      "femaleParams": {
+        "chest": 62,
+        "waist": 41,
+        "back": 42
+      }
+    },
+    "Бассет-хаунд": {
+      "id": 47,
+      "maleParams": {
+        "chest": 64,
+        "waist": 43,
+        "back": 44
+      },
+      "femaleParams": {
+        "chest": 62,
+        "waist": 41,
+        "back": 42
+      }
+    },
+    "Хаски": {
+      "id": 48,
+      "maleParams": {
+        "chest": 76,
+        "waist": 48,
+        "back": 55
+      },
+      "femaleParams": {
+        "chest": 74,
+        "waist": 46,
+        "back": 53
+      }
+    },
+    "Боксер": {
+      "id": 49,
+      "maleParams": {
+        "chest": 76,
+        "waist": 48,
+        "back": 55
+      },
+      "femaleParams": {
+        "chest": 74,
+        "waist": 46,
+        "back": 53
+      }
+    },
+    "Питбуль": {
+      "id": 50,
+      "maleParams": {
+        "chest": 76,
+        "waist": 48,
+        "back": 55
+      },
+      "femaleParams": {
+        "chest": 74,
+        "waist": 46,
+        "back": 53
+      }
+    },
+    "Эрдельтерьер": {
+      "id": 51,
+      "maleParams": {
+        "chest": 76,
+        "waist": 48,
+        "back": 55
+      },
+      "femaleParams": {
+        "chest": 74,
+        "waist": 46,
+        "back": 53
+      }
+    },
+    "Русский черный терьер": {
+      "id": 52,
+      "maleParams": {
+        "chest": 86,
+        "waist": 54,
+        "back": 64
+      },
+      "femaleParams": {
+        "chest": 84,
+        "waist": 52,
+        "back": 62
+      }
+    },
+    "Американский бульдог": {
+      "id": 53,
+      "maleParams": {
+        "chest": 86,
+        "waist": 54,
+        "back": 64
+      },
+      "femaleParams": {
+        "chest": 84,
+        "waist": 52,
+        "back": 62
+      }
+    },
+    "Сеттер": {
+      "id": 54,
+      "maleParams": {
+        "chest": 86,
+        "waist": 54,
+        "back": 64
+      },
+      "femaleParams": {
+        "chest": 84,
+        "waist": 52,
+        "back": 62
+      }
+    },
+    "Мастино": {
+      "id": 55,
+      "maleParams": {
+        "chest": 86,
+        "waist": 54,
+        "back": 64
+      },
+      "femaleParams": {
+        "chest": 84,
+        "waist": 52,
+        "back": 62
+      }
+    },
+    "Сенбернар": {
+      "id": 56,
+      "maleParams": {
+        "chest": 105,
+        "waist": 66,
+        "back": 73
+      },
+      "femaleParams": {
+        "chest": 103,
+        "waist": 64,
+        "back": 71
+      }
+    },
+    "Зенненхунд": {
+      "id": 57,
+      "maleParams": {
+        "chest": 105,
+        "waist": 66,
+        "back": 73
+      },
+      "femaleParams": {
+        "chest": 103,
+        "waist": 64,
+        "back": 71
+      }
+    },
+    "Мастиф": {
+      "id": 58,
+      "maleParams": {
+        "chest": 105,
+        "waist": 66,
+        "back": 73
+      },
+      "femaleParams": {
+        "chest": 103,
+        "waist": 64,
+        "back": 71
+      }
+    },
+    "Дог": {
+      "id": 59,
+      "maleParams": {
+        "chest": 105,
+        "waist": 66,
+        "back": 73
+      },
+      "femaleParams": {
+        "chest": 103,
+        "waist": 64,
+        "back": 71
+      }
+    },
+    "Такса": {
+      "id": 60,
+      "maleParams": {
+        "chest": 37,
+        "waist": 28,
+        "back": 34
+      },
+      "femaleParams": {
+        "chest": 35,
+        "waist": 26,
+        "back": 33
+      }
+    },
+    "Вельш-корги": {
+      "id": 61,
+      "maleParams": {
+        "chest": 62,
+        "waist": 46,
+        "back": 45
+      },
+      "femaleParams": {
+        "chest": 60,
+        "waist": 44,
+        "back": 43
+      }
+    }
+  }
+}
