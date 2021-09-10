@@ -1,10 +1,12 @@
 
 ## DataAnalysis
 
+
 ### Похожие товары
 Поиск похожих товаров осуществляется на основе косинусного расстояния с учётом производителя, типа вещи, цвета, цены, пола и размера.
 
 ![Similar_items](../Screenshots/data_2.png)  
+
 
 
 ### Рекомендательная система
@@ -14,10 +16,10 @@
 - item-based (коллаборативная фильтрация)
 - content-based (поиск товаров на основании информации о покупках пользователя)
 
-![User-based](../Screenshots/data_3.png)  
+![User-based](../Screenshots/data_3.jpg)  
 
-![Item-based](../Screenshots/data_4.png)  
+![Item-based](../Screenshots/data_4.jpg)  
 
 Сравнение эффективности отдельных алгоритмов и гибридной системы, объединяющей user-based и content-based рекомендации методом взвешенной суммы:
 
-![Table](../Screenshots/data_5.png)  
+![Table](../Screenshots/data_5.jpg)  
